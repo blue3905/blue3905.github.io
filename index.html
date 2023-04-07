@@ -102,10 +102,28 @@
 <p>已有仓库</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd existing_git_repo</span><br><span class="line">注：git branch -M main #github主分支更名为main</span><br><span class="line">git remote add origin git@gitee.com:the-bule/541.git</span><br><span class="line">git push -u origin &quot;master&quot;</span><br></pre></td></tr></table></figure>
 
+<p>查看分支</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -a</span><br></pre></td></tr></table></figure>
+
+<p>新建分支</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch branch*name</span><br></pre></td></tr></table></figure>
+
+<p>连接远程分支</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+
+<p>删除分支</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git branch -d branch_name</span><br></pre></td></tr></table></figure>
+
+<p>删除远程分支</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git push origin -d branch_name</span><br></pre></td></tr></table></figure>
+
+<p>查看分支连接情况</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote show origin</span><br></pre></td></tr></table></figure>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2023/04/07/Git/" data-id="clg6bsoqw0000dwwndgduf1rw" data-title="Git 使用教程" class="article-share-link">分享</a>
+      <a data-url="http://example.com/2023/04/07/Git/" data-id="clg6bwzr90000down0ugh4kd3" data-title="Git 使用教程" class="article-share-link">分享</a>
       
       
       
